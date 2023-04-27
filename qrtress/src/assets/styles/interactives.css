@@ -1,0 +1,142 @@
+.interactives-container {
+  display: flex;
+  padding: 7rem;
+  background: url("../img/fondo-comida.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+.interactives-title {
+  font-size: 37px;
+  font-weight: 600;
+  line-height: 58px;
+  color: #54595f;
+  width: 350px;
+}
+
+.interactive-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #54595f;
+  width: 450px;
+  margin: 2rem 0;
+}
+
+.interactives-cards{
+    width: 100%;
+    position: relative;
+}
+
+.interactives-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 180px;
+  border-radius: 15px;
+  color: white;
+}
+
+.icon {
+  font-size: 40px;
+  color: red;
+  background-color: red;
+}
+
+.green {
+  box-shadow: 0 20px 40px 0 rgba(94, 44, 237, 0.4);
+  background: rgb(83, 141, 28);
+  background: linear-gradient(
+    40deg,
+    rgba(83, 141, 28, 1) 0%,
+    rgba(157, 218, 40, 1) 100%
+  );
+  position: absolute;
+  left: 16.5rem;
+  top: 6rem;
+  animation: downup 2.8s alternate infinite ease-in-out;
+}
+
+.orange {
+  box-shadow: 0 20px 40px 0 rgba(224, 149, 32, 0.4);
+  background: rgb(232, 126, 22);
+  background: linear-gradient(
+    40deg,
+    rgba(232, 126, 22, 1) 0%,
+    rgba(240, 222, 20, 1) 100%
+  );
+  position: absolute;
+  right: 2rem;
+  top: 0;
+  animation: updown 3.1s alternate infinite ease-in-out;
+}
+
+.red {
+  box-shadow: 0 20px 40px 0 rgba(224, 56, 39, 0.4);
+  background: rgb(224, 56, 39);
+  background: linear-gradient(
+    40deg,
+    rgba(224, 56, 39, 1) 0%,
+    rgba(249, 164, 122, 1) 100%
+  );
+  position: absolute;
+  bottom: 4rem;
+  left: 14rem;
+  animation: leftright 3.1s alternate infinite ease-in-out;
+}
+
+.blue {
+  box-shadow: 0 20px 40px 0 rgba(44, 130, 237, 0.4);
+  background: rgb(33, 113, 212);
+  background: linear-gradient(
+    40deg,
+    rgba(33, 113, 212, 1) 0%,
+    rgba(44, 196, 240, 1) 100%
+  );
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  animation: diag 3s alternate infinite ease-in-out;
+}
+
+@keyframes diag{
+    0%{
+        transform: translateX(10) translateY(0);
+    }
+    100%{
+        transform: translateX(10px) translateY(-10px);
+    }
+}
+
+@keyframes leftright {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-10px);
+    }
+}
+
+@keyframes updown {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(13px);
+    }
+}
+
+@keyframes downup {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-10px) translateX(1px);
+    }
+}
+
+
