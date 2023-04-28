@@ -79,7 +79,7 @@
 }
 
 .icon{
-  
+  font-size: 15px;
   border-radius: 50%;
   padding: 5px;
   background: #fff;
@@ -105,4 +105,5 @@
   .safe-description{
     padding: 0 1rem;
   }
+  
 }

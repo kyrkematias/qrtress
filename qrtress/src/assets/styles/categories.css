@@ -81,6 +81,12 @@
 }
 
 @media (max-width: 768px){
+  .categories-header{
+    text-align: center;
+  }
+  .categories-title{
+    text-align: center;
+  }
   .categories-text{
     text-align: center;
   }

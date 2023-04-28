@@ -3,10 +3,10 @@
   font-weight: 600 !important;
 }
 
-.navbar{
+/*.navbar{
     height: 5rem;
     font-optical-sizing: 2rem;
-}
+}*/
 
 
 
@@ -31,4 +31,11 @@
 .link:hover::before {
     transform-origin: left;
     transform: scaleX(1);
+}
+
+@media(max-width: 768px){
+  .navbar-btn{
+    width: 150px;
+    font-size: 17px !important;
+  }
 }

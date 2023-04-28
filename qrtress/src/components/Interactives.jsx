@@ -3,7 +3,7 @@ import "../assets/styles/interactives.css";
 const Interactives = () => {
   return (
     <div className="interactives-container">
-      <div>
+      <div className="interactives-text-container">
         <h3 className="interactives-title">La carta QR gratis más completa</h3>
         <p className="interactive-text">
           Haz marketing gastronómico. Mejora tu imagen de marca, ahorra costes y
@@ -12,7 +12,7 @@ const Interactives = () => {
           Modifica tus productos, actualiza precios o disponibilidad y edita las
           cartas en tiempo real.
         </p>
-        <a href="">
+        <a href="" className="interactive-link slide_right">
           Empieza ya! <i className="fa-solid fa-arrow-right"></i>
         </a>
       </div>
