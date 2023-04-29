@@ -1,0 +1,37 @@
+.dif-container{
+    padding: 6rem;
+}
+
+.dif-header{
+    text-align: center;
+    color: #7A7A7A;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.dif-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 3rem 0;
+    
+    justify-content: center;
+    gap: 1rem ;
+}
+
+.dif-card{
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    width: 550px;
+    background: #dc3545;
+    color: white;
+    border-radius: 15px;
+    padding:1.5rem  1rem;
+}
+
+.dif-icons{
+    font-size: 45px;
+    color: white;
+    
+}
