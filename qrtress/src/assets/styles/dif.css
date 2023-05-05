@@ -33,5 +33,18 @@
 .dif-icons{
     font-size: 45px;
     color: white;
-    
+}
+
+.text{
+    color: #fff;
+}
+
+@media (max-width: 768px){
+    .dif-container{
+        padding: 2rem;
+    }
+    .dif-card{
+        flex-direction: column;
+        width: 100%;
+    }
 }

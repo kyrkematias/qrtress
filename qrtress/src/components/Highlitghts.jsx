@@ -4,7 +4,11 @@ const Highlitghts = () => {
   return (
     <div className="highs-container">
       <div className="highs-side">
-        <img src={cell} alt="Imagen de un telefono celular usando la app" className="highs-img"/>
+        <img
+          src={cell}
+          alt="Imagen de un telefono celular usando la app"
+          className="highs-img"
+        />
         <div className="imgbg"></div>
       </div>
       <div>

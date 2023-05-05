@@ -90,4 +90,7 @@
   .categories-text{
     text-align: center;
   }
+  .categories-card-container{
+    padding: 0 .28rem;
+  }
 }
