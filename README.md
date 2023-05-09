@@ -1,4 +1,4 @@
-#Online Menu App
+# Online Menu App
 This is a React-based web application for showcasing online menus using Bootstrap and the animation-on-scroll library. The deployed version of the app can be found at https://645aaf78679c4835a4a74fb9--poetic-pavlova-bb1db8.netlify.app/.
 
 Features
