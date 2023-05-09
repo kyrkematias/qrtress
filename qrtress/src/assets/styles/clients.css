@@ -1,0 +1,36 @@
+.item-container{
+    display: flex;
+    overflow: hidden;
+}
+
+.item-container img{
+    flex-shrink: 0;
+    width: 100%;
+    height: auto;
+}
+
+.item-container::before,
+.item-container::after{
+    content: '';
+    flex-shrink: 0;
+    width: 100%;
+    background: inherit;
+}
+
+.item-container::before{
+    margin-right: -100%;
+    animation: slide 5s infinite linear;
+}
+
+.item-container::after{
+    margin-left: -100%;
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}

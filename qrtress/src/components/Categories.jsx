@@ -3,8 +3,10 @@ import "../assets/styles/categories.css";
 const Categories = () => {
   return (
     <Container className="categories-container">
-      <p className="categories-header">CARTA DIGITAL ADAPTADA A TU NEGOCIO</p>
-      <h3 className="categories-title">
+      <p className="categories-header" data-aos="fade-up">
+        CARTA DIGITAL ADAPTADA A TU NEGOCIO
+      </p>
+      <h3 className="categories-title" data-aos="fade-up" data-aos-duration="1000">
         Ejemplos de cartas digitales que puedes hacer
       </h3>
       <div className="categories-card-container">
@@ -33,11 +35,11 @@ const Categories = () => {
           <h4 className="categories-card-text">Vegetariano</h4>
         </div>
       </div>
-      <p className="categories-text">
+      <p className="categories-text" data-aos="fade-up">
         Contacta con nosotros y personalizaremos el estilo de tu carta digital
         para que no tengas que preocuparte por nada.
       </p>
-      <p className="categories-text">
+      <p className="categories-text" data-aos="fade-up" data-aos-duration="1500">
         Hacemos accesible la digitalización a cualquier establecimiento de
         hostelería sin importar su tamaño.
       </p>

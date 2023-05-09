@@ -12,7 +12,7 @@ const Highlitghts = () => {
         <div className="imgbg"></div>
       </div>
       <div>
-        <div className="highs-cards">
+        <div className="highs-cards" data-aos-duration="1000">
           <i className="fa-solid fa-pencil highs-icon"></i>
           <div>
             <h4 className="highs-title">Editable</h4>
@@ -22,7 +22,7 @@ const Highlitghts = () => {
             </p>
           </div>
         </div>
-        <div className="highs-cards">
+        <div className="highs-cards" data-aos="fade-up">
           <i className="fa-regular fa-clock highs-icon"></i>
           <div>
             <h4 className="highs-title">Ahorra tiempo</h4>
@@ -32,7 +32,7 @@ const Highlitghts = () => {
             </p>
           </div>
         </div>
-        <div className="highs-cards">
+        <div className="highs-cards" data-aos="fade-up">
           <i className="fa-solid fa-house highs-icon"></i>
           <div>
             <h4 className="highs-title">Mejora la imagen de tu local</h4>
@@ -42,7 +42,7 @@ const Highlitghts = () => {
             </p>
           </div>
         </div>
-        <div className="highs-cards">
+        <div className="highs-cards" data-aos="fade-up">
           <i className="fa-regular fa-face-smile highs-icon"></i>
           <div>
             <h4 className="highs-title">Muy fácil de usar</h4>
@@ -52,7 +52,7 @@ const Highlitghts = () => {
             </p>
           </div>
         </div>
-        <div className="highs-cards">
+        <div className="highs-cards" data-aos="fade-up">
           <i className="fa-solid fa-share-from-square highs-icon"></i>
           <div>
             <h4 className="highs-title">Posiciona tu restaurante</h4>

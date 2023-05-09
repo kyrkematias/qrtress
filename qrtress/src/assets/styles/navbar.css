@@ -3,12 +3,9 @@
   font-weight: 600 !important;
 }
 
-/*.navbar{
-    height: 5rem;
-    font-optical-sizing: 2rem;
-}*/
-
-
+.logo{
+  color: #54595f;
+}
 
 .link::before {
   content: "";

@@ -11,7 +11,9 @@ import NavBar from "./components/NavBar";
 import Safety from "./components/Safety";
 import Highs2 from "./components/Highs2"
 import Premium from "./components/Premium";
-
+import Faqs from "./components/Faqs";
+import Footer from "./components/Footer";
+import Wpp from "./components/Wpp";
 
 function App() {
   return(
@@ -28,6 +30,9 @@ function App() {
       <Comands />
       <Highs2 />
       <Premium />
+      <Faqs />
+      <Footer />
+      <Wpp />
     </div>
   )
   

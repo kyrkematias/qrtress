@@ -1,0 +1,26 @@
+.wpp-container{
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    z-index: 10;
+}
+
+.wppIcon{
+    font-size: 45px;
+    color: #fff;
+    padding: .7rem;
+    border-radius: 50%;
+    background: #25D366;
+}
+
+@media (max-width: 768px){
+    .wppIcon{
+        font-size: 35px;
+        
+        margin: auto;
+    }
+    .wpp-container{
+        right: .5rem;
+        bottom: 1.5rem;
+    }
+}
